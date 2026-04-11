@@ -124,16 +124,6 @@ keepsecret [locked]> exit
 Vault locked. Goodbye!
 ```
 
-### Einzelbefehle
-
-```bash
-java -jar target\keepsecret-1.0.0-SNAPSHOT.jar init
-java -jar target\keepsecret-1.0.0-SNAPSHOT.jar unlock
-java -jar target\keepsecret-1.0.0-SNAPSHOT.jar add -n "AWS" -u "admin" --generate
-java -jar target\keepsecret-1.0.0-SNAPSHOT.jar list
-java -jar target\keepsecret-1.0.0-SNAPSHOT.jar --help
-```
-
 ### Eigene Vault-Datei
 
 ```bash
